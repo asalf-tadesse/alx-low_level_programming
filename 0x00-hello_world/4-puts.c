@@ -14,7 +14,7 @@
 
 
 
-int main(void)
+int main(void) /*main function or entry point*/
 
 {
 
