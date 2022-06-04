@@ -9,13 +9,11 @@ int main (void)
 {
 	char c = 'a';
 
-	while()
+	while(c <= 'z')
 	{
 		putchat(c);
 		c++;
-	
 	}
 	putchat('\n');
 	return (0);
-
 }
