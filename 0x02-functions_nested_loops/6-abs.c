@@ -7,7 +7,8 @@
  *
  * Return: absolute value
  */
-int _abs(int)
+int _abs(int x)
 {
-	return(abs(int));
+	int res = abs(x);
+	return(res);
 }
