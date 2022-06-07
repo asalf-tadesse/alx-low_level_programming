@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _abs - computes absolute value of an integer
+ * _abs - computes absolute value of an integer x
  *
  * @n: number to check
  *
@@ -9,7 +9,7 @@
  */
 int _abs(int x)
 {
-	int res = abs (x);
+	int res = abs(x);
 
-	return(res);
+	return (res);
 }
