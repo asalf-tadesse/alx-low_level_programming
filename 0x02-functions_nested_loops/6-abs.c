@@ -9,6 +9,7 @@
  */
 int _abs(int x)
 {
-	int res = abs(x);
+	int res = abs (x);
+
 	return(res);
 }
