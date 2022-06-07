@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _islower - Function checks is lowercase character
  *
@@ -16,4 +17,8 @@ int _islower(int c)
 	{
 		return (0);
 	}
+}
+int main(void)
+{
+	return (0);
 }
