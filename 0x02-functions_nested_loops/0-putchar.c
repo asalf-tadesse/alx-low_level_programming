@@ -1,15 +1,15 @@
 #include "main.h"
-/*
- * main - Print the word _putchar
+/**
+ * main - check the code
  *
- * return: 0 Sucess
- *
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	char put[8] = "_putchar";
 	int i;
-	
+
 	for (i = 0; i <= 7; i++)
 	{
 		putchar(put[i]);
