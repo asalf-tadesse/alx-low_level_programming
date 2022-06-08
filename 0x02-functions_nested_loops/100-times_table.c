@@ -9,15 +9,15 @@
  */
 void print_times_table(int n)
 {
-	int x;
+	int x, j, res;
 
 	for(x = 0; x <= n; x++)
 	{
 		if ((n > 15) && (n < 0))
 			break;
-		for (x = 0; x <= n; x++)
+		for (j = 0; j <= n; j++)
 		{
-			int res = res + x;
+			res = res + x;
 
 			_putchar(res + '0');
 			_putchar(',');
