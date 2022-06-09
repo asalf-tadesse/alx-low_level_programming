@@ -1,30 +1,18 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * print diagonal 
- *
- * Return: Always 0.
- */
-void print_square(int n)
+* print_square - function prints a square
+* @size: is the size of the square
+*/
+void print_square(int size)
 {
 	int i, j;
 
-	for (i = 0; i < n; i++)
+	if (size <= 0)
+		_putchar('\n');
+	for (i = 0; i < size; i++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			if (n <= 0)
-			{
-				_putchar('\n');
-			}
-			else
-			{
-				_putchar('#');
-			}
-		}
-		_putchar('\n');	
+		for (j = 0; j < size; j++)
+			_putchar('#');
+		_putchar('\n');
 	}
-	return;
 }

@@ -2,15 +2,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main : entry point
- *
- * @program that multiply two numbers
- *
- * return 0
- */
+* mul - function multiplies two integers
+* @a: First integer
+* @b: Second integer
+* Return: mul.
+*/
 int mul(int a, int b)
 {
-    int result;
-    result = a * b;
-    return (result);
+	int result;
+	
+	result = a * b;
+	
+	return (result);
 }

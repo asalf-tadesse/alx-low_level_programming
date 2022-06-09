@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * print diagonal 
- * 
- * Return: Always 0.
- */
+* print_diagonal - draws a diagonal line
+* @n: takes in an integer
+*/
 void print_diagonal(int n)
 {
 	int i, j;
@@ -28,5 +24,4 @@ void print_diagonal(int n)
 			}
 		}
 	}
-	return;
 }

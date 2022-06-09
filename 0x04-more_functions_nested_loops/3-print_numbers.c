@@ -1,23 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main : entry point
- *
- * @program that print 0 - 9
- *
- * return 0
- */
+* print_numbers - function prints the numbers 0 to 9.
+*/
 void print_numbers(void)
 {
-    char i;
-    
-    i = '0';
-    while(i <= '9')
-    {
-        _putchar(i);
-        _putchar('\n');
-	i++;
-    }
-    return;
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+	_putchar(c);
+	_putchar('\n');
 }
