@@ -3,9 +3,9 @@
 #include <ctype.h>
 /**
  * main : entry point
- * 
+ *
  * @check whether the character c is upper or not
- * 
+ *
  * return 0
  */
 int _isupper(int c)

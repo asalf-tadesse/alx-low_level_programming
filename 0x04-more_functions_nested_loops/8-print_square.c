@@ -4,27 +4,27 @@
  * main - check the code
  *
  * print diagonal 
- * 
+ *
  * Return: Always 0.
  */
 void print_square(int n)
 {
-    int i, j;
+	int i, j;
 
 	for (i = 0; i < n; i++)
 	{
 		for (j = 0; j < n; j++)
 		{
-            	if (n <= 0)
-                {
-                   fputchar('\n'); 
-                }
-                else
-                {
-                    fputchar('#');
-                }
+			if (n <= 0)
+			{
+				_putchar('\n');
+			}
+			else
+			{
+				_putchar('#');
+			}
 		}
-        fputchar('\n');	
+		_putchar('\n');	
 	}
-    return;
+	return;
 }

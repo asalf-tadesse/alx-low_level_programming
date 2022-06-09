@@ -3,9 +3,9 @@
 #include <ctype.h>
 /**
  * main : entry point
- * 
+ *
  * @check whether the character c is digit or not
- * 
+ *
  * return 0
  */
 int _isdigit(int c)

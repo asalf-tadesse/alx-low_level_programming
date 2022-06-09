@@ -3,9 +3,9 @@
 
 /**
  * main : entry point
- * 
+ *
  * print_most_numbers except 2 & 4
- * 
+ *
  * return 0
  */
 void print_most_numbers(void)
@@ -20,7 +20,7 @@ void print_most_numbers(void)
         _putchar(i);
         _putchar('\n');
         }
-        i++;
+	i++;
     }
     return;
 }
