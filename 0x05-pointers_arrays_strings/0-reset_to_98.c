@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *entry point main function
+ * reset_to_98 - reset number to 98
  *
- * reset_to_98
+ * @n; pointer
  *
- * return 0
+ * return void
  */
 void reset_to_98(int *n)
 {
