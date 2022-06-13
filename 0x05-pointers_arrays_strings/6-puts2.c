@@ -1,10 +1,11 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts2 : function that prints every other characters
  *
- * @str variable argument
+ * str: variable argument
  *
- * return nothing
+ * return: nothing
  *
  */
 void puts2(char *str)
