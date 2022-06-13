@@ -1,18 +1,20 @@
 #include "main.h"
 #include <string.h>
 /**
- * puts_half: function that print half of the string
+ * puts_half - function that print half of the string
  *
- * @str string as an argument
+ * @str: string
  *
- * return nothing
+ * return: nothing
  */
 void puts_half(char *str)
 {
 	int i, len;
+
 	len = strlen(str);
-	for (i = len/2; i < len; i ++)
+	for (i = len / 2; i < len; i++)
 	{
 		_putchar(str[i]);
 	}
+	_putchar('\n');
 }

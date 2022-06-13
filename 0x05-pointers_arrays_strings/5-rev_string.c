@@ -3,9 +3,9 @@
 /**
  * rev_string - function that prints revers string
  *
- * s: string
+ * @s: string
  *
- * return: nothing
+ * return: 0 nothing
  *
  */
 void rev_string(char *s)
@@ -13,10 +13,10 @@ void rev_string(char *s)
 	int i, len, tmp;
 
 	len = strlen(s);
-	for (i = 0; i < len/2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		tmp = s[i];
 		s[i] = s[len - i - 1];
-		s[len - i -1] = tmp;
+		s[len - i - 1] = tmp;
 	}
 }
