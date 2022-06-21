@@ -1,0 +1,24 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * @_strstr function that locats a substring
+ *
+ * @param haystack
+ * @param needle
+ * @return char*
+ */
+char *_strstr(char *haystack, char *needle)
+{
+	int i, j;
+
+	for (i = 0; haystack[i] != '\n'; i++)
+	{
+		for (j = 0; needle[j] != '\0'; j++)
+		{
+			if (haystack[i] == needle[j])
+			{
+				return (&haystack[i]);
+			}
+		}
+	}
+}
