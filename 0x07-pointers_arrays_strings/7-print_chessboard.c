@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 /**
- * @print_chessboard function that print chessboard
- *
- * @param a
+ * print_chessboard - function that prints the chessboard
+ * @a: pointer to 2d array of chars
+ * Return: nothing
  */
 void print_chessboard(char (*a)[8])
 {
@@ -14,11 +12,9 @@ void print_chessboard(char (*a)[8])
 	{
 		for (j = 0; j < 8; j++)
 		{
-			if (isalpha(a[i][j]))
-			{
-				_putchar(a[i][j]);
-			}
+			_putchar(a[i][j]);
 		}
-		_putchar('\n');
+
+	_putchar('\n');
 	}
 }

@@ -1,20 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * @_memcpy functions that fills a memory with a constant byte
- * 
- * @param dest
- * @param src
- * @param n
- * @return char*
+ * _memcpy - function that copies memory area
+ * @dest: memory destiny where is stored
+ * @src: memory where is copied
+ * @n: number of bytes
+ *
+ * Return: pointer dest copied
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
-	
-	for (i = 0; i < n; i++)
+	int index;
+
+	for (index = 0; n > 0; index++)
 	{
-		dest[i] = src[i];
+		dest[index] = src[index];
+		n--;
 	}
-	return dest;
+	return (dest);
 }
